@@ -4,7 +4,7 @@ Team evaluation 1
 
 .. raw:: html
 
-    {{ team_name, team_member = get_team_members(user_id, course_name, 'teams.csv') }}
+    {{ team_name, team_member = get_team_members(user_id, course_name) }}
 
 Team: {{ =team_name }}
 
