@@ -23,6 +23,7 @@
 # Sphinx/Runestone
 /sphinx-enki-info.txt
 /build/
+/published/
 /build_info
 /sphinx_settings.json
 
