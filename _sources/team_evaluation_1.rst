@@ -2,10 +2,11 @@
 Team evaluation 1
 *****************
 
-{{ team_name, team_member = _get_team_members(user_id, course_name, 'teams.csv') }}
+.. raw:: html
 
-{{ =team_name }}
-================
+    {{ team_name, team_member = get_team_members(user_id, course_name, 'teams.csv') }}
+
+Team: {{ =team_name }}
 
 If there are fewer than five members in your team, simply leave information for those additional members blank. For example, a team of four would complete information for team members 1-3, and leave team member 4 blank.
 
