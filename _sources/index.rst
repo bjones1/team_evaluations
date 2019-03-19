@@ -8,11 +8,11 @@ Use this site to evaluate your teammates.
     :glob:
     :maxdepth: 1
 
-    team_evaluation_?/toctree
+    team_evaluations/toctree
 
 
 .. toctree::
     :glob:
     :maxdepth: 1
 
-    team_evaluation_?/team_evaluation_?
+    team_evaluations/team_evaluation_?
