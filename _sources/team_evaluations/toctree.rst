@@ -10,3 +10,9 @@ Team evaluation
 
     team_evaluation_?
 
+
+.. toctree::
+    :hidden:
+    :glob:
+
+    team_report_?
