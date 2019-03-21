@@ -40,6 +40,13 @@ if include_list[3]: }}
 
     Role - {{ =teammate_member_list[3] }}
 
+{{ pass
+if include_list[4]: }}
+
+.. shortanswer:: u7gFTToScb_4
+
+    Role - {{ =teammate_member_list[4] }}
+
 {{ pass }}
 
 
@@ -98,6 +105,16 @@ if include_list[3]: }}
     -   :50 50: Response recorded.
         :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
 
+{{ pass
+if include_list[4]: }}
+
+.. fillintheblank:: obQ92zXXNt_4
+
+    {{ =teammate_member_list[4] }}: |blank|
+
+    -   :50 50: Response recorded.
+        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
+
 {{ pass}}
 
 
@@ -138,6 +155,16 @@ if include_list[3]: }}
 .. fillintheblank:: jFv3JEHm9g_3
 
     {{ =teammate_member_list[3] }}: |blank|
+
+    -   :50 50: Response recorded.
+        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
+
+{{ pass
+if include_list[4]: }}
+
+.. fillintheblank:: jFv3JEHm9g_4
+
+    {{ =teammate_member_list[4] }}: |blank|
 
     -   :50 50: Response recorded.
         :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
