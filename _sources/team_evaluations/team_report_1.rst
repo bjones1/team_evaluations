@@ -19,7 +19,7 @@ In the following questions, briefly describe the role each team member has playe
 
 .. raw:: html
 
-    {{ =team_data.grid('role','gccKGKaifg', 'pDS6lBdfAu', 'yktoqywxAE', '8OYfE3q69s') }}
+    {{ =team_data.grid('role', 'gccKGKaifg', 'pDS6lBdfAu', 'yktoqywxAE', '8OYfE3q69s') }}
 
 
 Group dynamics

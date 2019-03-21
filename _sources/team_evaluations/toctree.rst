@@ -1,8 +1,8 @@
 .. Copyright (C) 2018 Bryan A. Jones
 
-***************
-Team evaluation
-***************
+****************
+Team evaluations
+****************
 
 .. toctree::
     :maxdepth: 1

@@ -9,10 +9,10 @@ Use this site to evaluate your teammates.
     :maxdepth: 1
 
     team_evaluations/toctree
-
+    team_evaluations/team_evaluation_1
 
 .. toctree::
     :glob:
     :maxdepth: 1
 
-    team_evaluations/team_evaluation_?
+    team_evaluations/team_evaluation_2
