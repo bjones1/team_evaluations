@@ -77,4 +77,4 @@ Grades
 ======
 .. raw:: html
 
-    {{ =grades_table(eval_data_dict, 'ge_contributions', 'sd_contributions') }}
+    {{ =grades_table(team_data_dict, 'ge_contributions', 'sd_contributions') }}

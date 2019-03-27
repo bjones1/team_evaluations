@@ -4,7 +4,7 @@ Team evaluation 2
 
 .. raw:: html
 
-    {{ team_name, teammate_member_list, include_list = get_team_members(email, course_name) }}
+    {{ team_name, teammate_member_list = get_team_members(email, course_name) }}
 
 Team: {{ =team_name }}
 
@@ -13,41 +13,19 @@ Role
 ====
 In the following questions, briefly describe the role each team member has played in all aspects of Senior Design I (ECE 4512/4532) and in preparing content for the design constraints and approach documents (GE 3513). A failure to provide details about team and content preparation roles will not earn full credit for this assignment.
 
-{{ if include_list[0]: }}
+.. for-loop:: 5
 
-.. shortanswer:: u7gFTToScb_0
+    .. raw:: html
 
-    Role - {{ =teammate_member_list[0] }}
+        {{{{ if len(teammate_member_list) > {0}: }}}}
 
-{{ pass
-if include_list[1]: }}
+    .. shortanswer:: u7gFTToScb_{0}
 
-.. shortanswer:: u7gFTToScb_1
+        Role - {{{{ =teammate_member_list[{0}] }}}}
 
-    Role - {{ =teammate_member_list[1] }}
+    .. raw:: html
 
-{{ pass
-if include_list[2]: }}
-
-.. shortanswer:: u7gFTToScb_2
-
-    Role - {{ =teammate_member_list[2] }}
-
-{{ pass
-if include_list[3]: }}
-
-.. shortanswer:: u7gFTToScb_3
-
-    Role - {{ =teammate_member_list[3] }}
-
-{{ pass
-if include_list[4]: }}
-
-.. shortanswer:: u7gFTToScb_4
-
-    Role - {{ =teammate_member_list[4] }}
-
-{{ pass }}
+        {{{{ pass }}}}
 
 
 Group dynamics
@@ -66,110 +44,42 @@ Contributions
 =============
 Evaluate each team member’s contribution to the **mid-semester design review (GE 3513)** by distributing the assignment’s total possible points (100) as you think they should be allocated based on each member’s input. Please note that you are not rating each member on a scale of 0 to 100; rather, you are distributing a total of 100 points across all team members other than yourself (e.g., if everyone has contributed equally on a four-person team, you should give your three team members each a 33.3; if everyone has contributed equally on a five-person team, you should give your four team members each a 25). This rating does not count toward individual grades; rather, it is an opportunity to reveal any problems that might exist within your group. **To aid in transparency, I will make your anonymous ratings available to the entire team.**
 
-{{ if include_list[0]: }}
+.. for-loop:: 5
 
-.. fillintheblank:: obQ92zXXNt_0
+    .. raw:: html
 
-    {{ =teammate_member_list[0] }}: |blank|
+        {{{{ if len(teammate_member_list) > {0}: }}}}
 
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
+    .. fillintheblank:: obQ92zXXNt_{0}
 
-{{ pass
-if include_list[1]: }}
+        {{{{ =teammate_member_list[{0}] }}}}: |blank|
 
-.. fillintheblank:: obQ92zXXNt_1
+        -   :50 50: Response recorded.
+            :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
 
-    {{ =teammate_member_list[1] }}: |blank|
+    .. raw:: html
 
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
-
-{{ pass
-if include_list[2]: }}
-
-.. fillintheblank:: obQ92zXXNt_2
-
-    {{ =teammate_member_list[2] }}: |blank|
-
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
-
-{{ pass
-if include_list[3]: }}
-
-.. fillintheblank:: obQ92zXXNt_3
-
-    {{ =teammate_member_list[3] }}: |blank|
-
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
-
-{{ pass
-if include_list[4]: }}
-
-.. fillintheblank:: obQ92zXXNt_4
-
-    {{ =teammate_member_list[4] }}: |blank|
-
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
-
-{{ pass}}
+        {{{{ pass }}}}
 
 
 Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532).**
 
-{{ if include_list[0]: }}
+.. for-loop:: 5
 
-.. fillintheblank:: jFv3JEHm9g_0
+    .. raw:: html
 
-    {{ =teammate_member_list[0] }}: |blank|
+        {{{{ if len(teammate_member_list) > {0}: }}}}
 
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
+    .. fillintheblank:: jFv3JEHm9g_{0}
 
-{{ pass
-if include_list[1]: }}
+        {{{{ =teammate_member_list[{0}] }}}}: |blank|
 
-.. fillintheblank:: jFv3JEHm9g_1
+        -   :50 50: Response recorded.
+            :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
 
-    {{ =teammate_member_list[1] }}: |blank|
+    .. raw:: html
 
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
-
-{{ pass
-if include_list[2]: }}
-
-.. fillintheblank:: jFv3JEHm9g_2
-
-    {{ =teammate_member_list[2] }}: |blank|
-
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
-
-{{ pass
-if include_list[3]: }}
-
-.. fillintheblank:: jFv3JEHm9g_3
-
-    {{ =teammate_member_list[3] }}: |blank|
-
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
-
-{{ pass
-if include_list[4]: }}
-
-.. fillintheblank:: jFv3JEHm9g_4
-
-    {{ =teammate_member_list[4] }}: |blank|
-
-    -   :50 50: Response recorded.
-        :x: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
-
-{{ pass }}
+        {{{{ pass }}}}
 
 
 .. shortanswer:: 8oyhgXg7Nm
