@@ -3,16 +3,10 @@
 ****************
 Team evaluations
 ****************
-
-.. toctree::
-    :maxdepth: 1
-    :glob:
-
-    team_evaluation_?
-
+Browse to :doc:`../index` to access them.
 
 .. toctree::
     :hidden:
     :glob:
 
-    team_report_?
+    team_*

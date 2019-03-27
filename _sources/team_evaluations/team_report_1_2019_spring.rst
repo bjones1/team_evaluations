@@ -1,6 +1,6 @@
-*************
-Team report 1
-*************
+****************************
+Team report 1 -- Spring 2019
+****************************
 
 .. raw:: html
 
@@ -19,7 +19,7 @@ In the following questions, briefly describe the role each team member has playe
 
 .. raw:: html
 
-    {{ =team_data.grid('role', *['gccKGKaifg_' + str(i) for i in range(5)]) }}
+    {{ =team_data.grid('role', 'gccKGKaifg', 'pDS6lBdfAu', 'yktoqywxAE', '8OYfE3q69s') }}
 
 
 Group dynamics
@@ -44,14 +44,14 @@ Evaluate each team member’s contribution to the **design constraints and appro
 
 .. raw:: html
 
-    {{ =team_data.grid('ge_contributions', *['EI6i8Wuspa_' + str(i) for i in range(5)], average=True) }}
+    {{ =team_data.grid('ge_contributions', 'EI6i8Wuspa', average=True) }}
 
 
 Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532).**
 
 .. raw:: html
 
-    {{ =team_data.grid('sd_contributions', *['1HurwKbPu6_' + str(i) for i in range(5)], average=True) }}
+    {{ =team_data.grid('sd_contributions', '1HurwKbPu6', average=True) }}
 
 
 REQUIRED: If the allocated points above are not equally distributed, you must provide an explanation for your ratings.
