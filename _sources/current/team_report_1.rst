@@ -4,13 +4,12 @@ Team report 1
 
 .. raw:: html
 
-    {{ eval_data_dict, team_data_dict, grades = team_report('team_evaluation_1', course_name)
+    {{  eval_data_dict, team_data_dict, grades = team_report('team_evaluation_1', course_name)
         for team_name, team_data in six.iteritems(team_data_dict): }}
 
 
-Team eval
-=========
-Team: **{{ =team_name }}**
+{{ =team_name }}
+================
 
 
 Role

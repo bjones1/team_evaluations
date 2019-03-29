@@ -8,9 +8,8 @@ Team report 1 -- Spring 2019
         for team_name, team_data in six.iteritems(team_data_dict): }}
 
 
-Team eval
-=========
-Team: **{{ =team_name }}**
+{{ =team_name }}
+================
 
 
 Role
