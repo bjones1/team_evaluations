@@ -43,7 +43,7 @@ Evaluate each team member’s contribution to the **mid-semester design review (
 
 .. raw:: html
 
-    {{ =team_data.grid('ge_contributions', *str_array('obQ92zXXNt_, 5), average=True) }}
+    {{ =team_data.grid('ge_contributions', *str_array('obQ92zXXNt_', 5), average=True) }}
 
 
 Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532).**
