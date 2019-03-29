@@ -18,7 +18,7 @@ In the following questions, briefly describe the role each team member has playe
 
 .. raw:: html
 
-    {{ =team_data.grid('role', *['u7gFTToScb_' + str(i) for i in range(5)]) }}
+    {{ =team_data.grid('role', *str_array('u7gFTToScb_', 5)) }}
 
 
 Group dynamics
@@ -43,14 +43,14 @@ Evaluate each team member’s contribution to the **mid-semester design review (
 
 .. raw:: html
 
-    {{ =team_data.grid('ge_contributions', *['obQ92zXXNt_' + str(i) for i in range(5)], average=True) }}
+    {{ =team_data.grid('ge_contributions', *str_array('obQ92zXXNt_, 5), average=True) }}
 
 
 Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532).**
 
 .. raw:: html
 
-    {{ =team_data.grid('sd_contributions', *['jFv3JEHm9g_' + str(i) for i in range(5)], average=True) }}
+    {{ =team_data.grid('sd_contributions', *str_array('jFv3JEHm9g_', 5), average=True) }}
 
 
 REQUIRED: If the allocated points above are not equally distributed, you must provide an explanation for your ratings.
