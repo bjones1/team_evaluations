@@ -11,7 +11,7 @@ Team: **{{ =team_name }}**
 
 Role
 ====
-In the following questions, briefly describe the role each team member has played in all aspects of Senior Design I (ECE 4512/4532) and in preparing content for the design constraints and approach documents (GE 3513). A failure to provide details about team and content preparation roles will not earn full credit for this assignment.
+In the following questions, briefly describe the role each team member has played in all aspects of Senior Design I (ECE 4512/4532) and in preparing content for the mid-semester and final design review presentations (GE 3513). A failure to provide details about team and content preparation roles will not earn full credit for this assignment.
 
 .. for-loop:: 5
 

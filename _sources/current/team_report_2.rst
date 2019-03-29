@@ -69,7 +69,9 @@ Based on any of your answers at this point, please let me know how I can best he
     {{ =team_data.table('help_', 'Ha9jyYXVkx') }}
 
 
-{{ pass }}
+.. raw:: html
+
+    {{ pass }}
 
 
 Grades
