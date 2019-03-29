@@ -6,7 +6,7 @@ Team evaluation 2
 
     {{ team_name, teammate_member_list = get_team_members(email, course_name) }}
 
-Team: {{ =team_name }}
+Team: **{{ =team_name }}**
 
 
 Role
