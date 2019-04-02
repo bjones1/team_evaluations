@@ -3,9 +3,9 @@
 *****************
 Previous material
 *****************
-This stores items from previous semesters.
+This stores items from previous semesters. There are none so far.
 
-.. toctree::
+.. commented out toctree::
     :maxdepth: 1
     :glob:
 

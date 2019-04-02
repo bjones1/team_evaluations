@@ -21,7 +21,7 @@ Team report 1
 
 Role
 ----
-In the following questions, briefly describe the role each team member has played in all aspects of Senior Design I (ECE 4512/4532) and in preparing content for the design constraints and approach documents (GE 3513). A failure to provide details about team and content preparation roles will not earn full credit for this assignment.
+In the following questions, briefly describe the role each team member has played in all aspects of Senior Design II (ECE 4522/4542). A failure to provide details about team and content preparation roles will not earn full credit for this assignment.
 
 .. raw:: html
 
@@ -46,14 +46,7 @@ Discuss the reliability and participation of your group members. Has anyone miss
 
 Contributions
 -------------
-Evaluate each team member’s contribution to the **design constraints and approach documents (GE 3513)**.
-
-.. raw:: html
-
-    {{ =team_data.grid('ge_contributions', *str_array('EI6i8Wuspa_', 5), average=True) }}
-
-
-Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532)**.
+Evaluate each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532)**.
 
 .. raw:: html
 
@@ -85,4 +78,4 @@ Grades
 ======
 .. raw:: html
 
-    {{ =grades_table(team_data_dict, 'ge_contributions', 'sd_contributions') }}
+    {{ =grades_table(team_data_dict, 'sd_contributions') }}
