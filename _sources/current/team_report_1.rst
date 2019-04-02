@@ -46,7 +46,7 @@ Evaluate each team member’s contribution to the **design constraints and appro
     {{ =team_data.grid('ge_contributions', *str_array('EI6i8Wuspa_', 5), average=True) }}
 
 
-Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532).**
+Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532)**.
 
 .. raw:: html
 

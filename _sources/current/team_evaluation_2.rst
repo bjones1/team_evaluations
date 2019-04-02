@@ -62,7 +62,7 @@ Evaluate each team member’s contribution to the **mid-semester design review (
         {{{{ pass }}}}
 
 
-Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532).**
+Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532)**.
 
 .. for-loop:: 5
 

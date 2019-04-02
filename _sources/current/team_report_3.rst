@@ -39,7 +39,7 @@ Evaluate each team member’s contribution to the **final design review (GE 3513
     {{ =team_data.grid('ge_contributions', *str_array('OktFz93Cas_', 5), average=True) }}
 
 
-Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532).**
+Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532)**.
 
 .. raw:: html
 
