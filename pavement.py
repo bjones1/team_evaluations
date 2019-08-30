@@ -7,11 +7,17 @@ from runestone.server import get_dburl
 from sphinxcontrib import paverutils
 import pkg_resources
 from socket import gethostname
+from runestone import get_master_url
 
 sys.path.append(os.getcwd())
 
 # The project name, for use below.
 project_name = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+
+master_url = ''
+if not master_url:
+    master_url = get_master_url()
+
 # True if this project uses Runestone services.
 use_services = 'true'
 # The root directory for ``runestone serve``.
