@@ -19,8 +19,7 @@ Use this site to evaluate your teammates.
 
 .. raw:: html
 
-    {{  instructor_id = db(db.auth_user.username == user_id).select(db.auth_user.id).first()
-        if verifyInstructorStatus(course_name, instructor_id): }}
+    {{  if is_instructor == "true": }}
 
 This section is visible only to instructors.
 
