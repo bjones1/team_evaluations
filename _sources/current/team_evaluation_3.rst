@@ -4,7 +4,10 @@ Team evaluation 3
 
 .. raw:: html
 
-    {{ team_name, teammate_member_list = get_team_members(email, course_name) }}
+    {{
+        from team import get_team_members
+        team_name, teammate_member_list = get_team_members(user_email, course_name)
+    }}
 
 Team: **{{ =team_name }}**
 

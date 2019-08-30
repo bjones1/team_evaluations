@@ -13,7 +13,7 @@ sys.path.append(os.getcwd())
 # The project name, for use below.
 project_name = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 # True if this project uses Runestone services.
-use_services = True
+use_services = 'true'
 # The root directory for ``runestone serve``.
 serving_dir = "./build/" + project_name
 # The destination directory for ``runestone deploy``.
@@ -29,6 +29,7 @@ options(
         confdir=".",
         template_args={'login_required':'true',
                        'loglevel': 10,
+                       'course_title': project_name,
                        'python3': 'false',
                        'dburl': 'postgresql://user:password@localhost/runestone',
                        'default_ac_lang': 'python',
@@ -38,6 +39,7 @@ options(
                        'downloads_enabled': 'false',
                        'enable_chatcodes': 'False',
                        'allow_pairs': 'False',
+                       'dynamic_pages': True,
 
                        'use_services': use_services,
                        'basecourse': project_name,
@@ -45,6 +47,7 @@ options(
                        'course_id': project_name,
                        'appname': 'runestone',
                        'course_url': '',
+                       'course_url': master_url,
                       }
     )
 )

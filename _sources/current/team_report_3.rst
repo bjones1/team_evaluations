@@ -4,8 +4,13 @@ Team report 3
 
 .. raw:: html
 
-    {{  eval_data_dict, team_data_dict, grades = team_report('team_evaluation_3', course_name)
-        for team_name, team_data in six.iteritems(team_data_dict): }}
+    {{
+        import six
+        from team import team_report, grades_table, str_array
+
+        eval_data_dict, team_data_dict, grades = team_report('team_evaluation_1', course_name)
+        for team_name, team_data in six.iteritems(team_data_dict):
+    }}
 
 
 {{ =team_name }}
