@@ -24,7 +24,7 @@ Role
 
         {{{{ if len(teammate_member_list) > {0}: }}}}
 
-    .. shortanswer:: gccKGKaifg_{0}
+    .. shortanswer:: 63BMzdWpGe_{0}
 
         Role - {{{{ =teammate_member_list[{0}] }}}}
 
@@ -35,19 +35,19 @@ Role
 
 Group dynamics
 ==============
-.. shortanswer:: mnFNhFseeU
+.. shortanswer:: lBP6ugw9tZ
 
     |communication and cooperation|
 
 
-.. shortanswer:: ROrC8yQEPl
+.. shortanswer:: uTlGQ3jVI9
 
     |reliability and participation|
 
 
 Contributions
 =============
-|TW contributions 1|
+|contributions 1a|
 
 .. for-loop:: 5
 
@@ -55,7 +55,7 @@ Contributions
 
         {{{{ if len(teammate_member_list) > {0}: }}}}
 
-    .. fillintheblank:: EI6i8Wuspa_{0}
+    .. fillintheblank:: NeyVLiwUhe_{0}
 
         {{{{ =teammate_member_list[{0}] }}}}: |blank|
 
@@ -67,7 +67,7 @@ Contributions
         {{{{ pass }}}}
 
 
-|SDI contributions|
+|contributions 1b|
 
 .. for-loop:: 5
 
@@ -75,7 +75,7 @@ Contributions
 
         {{{{ if len(teammate_member_list) > {0}: }}}}
 
-    .. fillintheblank:: 1HurwKbPu6_{0}
+    .. fillintheblank:: 8RNhzJWZ4H_{0}
 
         {{{{ =teammate_member_list[{0}] }}}}: |blank|
 
@@ -87,13 +87,13 @@ Contributions
         {{{{ pass }}}}
 
 
-.. shortanswer:: QsjLXGZHYH
+.. shortanswer:: TcbxOSMGJ3
 
     |unequal distribution|
 
 
 Additional information
 ======================
-.. shortanswer:: pJ0PEMppqu
+.. shortanswer:: EBwSRFreuo
 
     |help|

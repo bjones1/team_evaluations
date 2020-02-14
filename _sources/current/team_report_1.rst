@@ -27,7 +27,7 @@ Role
 
 .. raw:: html
 
-    {{ =team_data.grid('role', *str_array('gccKGKaifg_', 5)) }}
+    {{ =team_data.grid('role', *str_array('63BMzdWpGe_', 5)) }}
 
 
 Group dynamics
@@ -36,37 +36,37 @@ Group dynamics
 
 .. raw:: html
 
-    {{ =team_data.table('communication', 'mnFNhFseeU') }}
+    {{ =team_data.table('communication', 'lBP6ugw9tZ') }}
 
 
 |reliability and participation|
 
 .. raw:: html
 
-    {{ =team_data.table('participation', 'ROrC8yQEPl') }}
+    {{ =team_data.table('participation', 'uTlGQ3jVI9') }}
 
 
 Contributions
 -------------
-|TW contributions 1|
+|contributions 1a|
 
 .. raw:: html
 
-    {{ =team_data.grid('ge_contributions', *str_array('EI6i8Wuspa_', 5), average=True) }}
+    {{ =team_data.grid('contributions_a', *str_array('NeyVLiwUhe_', 5), average=True) }}
 
 
-|SDI contributions|
+|contributions 1b|
 
 .. raw:: html
 
-    {{ =team_data.grid('sd_contributions', *str_array('1HurwKbPu6_', 5), average=True) }}
+    {{ =team_data.grid('contributions_b', *str_array('8RNhzJWZ4H_', 5), average=True) }}
 
 
 |unequal distribution|
 
 .. raw:: html
 
-    {{ =team_data.table('grades_explanation', 'QsjLXGZHYH') }}
+    {{ =team_data.table('grades_explanation', 'TcbxOSMGJ3') }}
 
 
 Additional information
@@ -75,7 +75,7 @@ Additional information
 
 .. raw:: html
 
-    {{ =team_data.table('help_', 'pJ0PEMppqu') }}
+    {{ =team_data.table('help_', 'EBwSRFreuo') }}
 
 
 .. raw:: html
@@ -87,4 +87,4 @@ Grades
 ======
 .. raw:: html
 
-    {{ =grades_table(team_data_dict, 'ge_contributions', 'sd_contributions') }}
+    {{ =grades_table(team_data_dict, 'contributions_a', 'contributions_b') }}
