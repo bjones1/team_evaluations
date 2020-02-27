@@ -2,19 +2,21 @@
 Team report 1
 *************
 
+**Contents**
+
 .. raw:: html
 
     {{
-        import six
-        from team import team_report, grades_table, str_array
+        from team import team_report, grades_table, str_array, toc_anchor
 
         eval_data_dict, team_data_dict, grades = team_report('team_evaluation_1', course_name)
-        for team_name, team_data in six.iteritems(team_data_dict):
+        for team_name, team_data in team_data_dict.items():
     }}
 
 
 {{ =team_name }}
 ================
+{{ =toc_anchor(team_name) }}
 
 
 Role
