@@ -16,7 +16,7 @@ Team: **{{ =team_name }}**
 
 Role
 ====
-|role 2|
+|role|
 
 .. for-loop:: 5
 
@@ -47,7 +47,7 @@ Group dynamics
 
 Contributions
 =============
-|TW contributions 2|
+|contributions|
 
 .. for-loop:: 5
 
@@ -56,26 +56,6 @@ Contributions
         {{{{ if len(teammate_member_list) > {0}: }}}}
 
     .. fillintheblank:: obQ92zXXNt_{0}
-
-        {{{{ =teammate_member_list[{0}] }}}}: |blank|
-
-        -   :50 50: Response recorded.
-            :x: |correct value|
-
-    .. raw:: html
-
-        {{{{ pass }}}}
-
-
-|SDI contributions|
-
-.. for-loop:: 5
-
-    .. raw:: html
-
-        {{{{ if len(teammate_member_list) > {0}: }}}}
-
-    .. fillintheblank:: jFv3JEHm9g_{0}
 
         {{{{ =teammate_member_list[{0}] }}}}: |blank|
 

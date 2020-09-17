@@ -23,7 +23,7 @@ Team report 1
 
 Role
 ----
-|role 1|
+|role|
 
 .. raw:: html
 
@@ -48,18 +48,12 @@ Group dynamics
 
 Contributions
 -------------
-|TW contributions 1|
+|contributions|
 
 .. raw:: html
 
     {{ =team_data.grid('ge_contributions', *str_array('EI6i8Wuspa_', 5), average=True) }}
 
-
-|SDI contributions|
-
-.. raw:: html
-
-    {{ =team_data.grid('sd_contributions', *str_array('1HurwKbPu6_', 5), average=True) }}
 
 
 |unequal distribution|
@@ -87,4 +81,4 @@ Grades
 ======
 .. raw:: html
 
-    {{ =grades_table(team_data_dict, 'ge_contributions', 'sd_contributions') }}
+    {{ =grades_table(team_data_dict, 'ge_contributions') }}
