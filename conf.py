@@ -11,7 +11,6 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys, os
 import pkg_resources
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -19,7 +18,7 @@ import pkg_resources
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('../modules'))
 
-from runestone import runestone_static_dirs, runestone_extensions
+from runestone import setup, runestone_static_dirs, runestone_extensions
 
 # -- General configuration -----------------------------------------------------
 
@@ -29,8 +28,6 @@ from runestone import runestone_static_dirs, runestone_extensions
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = ['sphinx.ext.mathjax'] + runestone_extensions()
-
-#,'runestone.video','runestone.reveal','runestone.poll','runestone.tabbedStuff','runestone.disqus','runestone.codelens','runestone.activecode', 'runestone.assess', 'runestone.animation','runestone.meta', 'runestone.parsons', 'runestone.blockly', 'runestone.livecode','runestone.accessibility']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = [pkg_resources.resource_filename('runestone', 'common/project_template/_templates')]
@@ -46,7 +43,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Team evaluations'
-copyright = '2019 Bryan A. Jones'
+copyright = '2020 Bryan A. Jones'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -69,7 +66,7 @@ release = '0.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = ["current/questions.inc"]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None

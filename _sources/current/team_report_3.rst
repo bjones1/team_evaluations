@@ -2,6 +2,8 @@
 Team report 3
 *************
 
+.. include:: questions.inc
+
 **Contents**
 
 .. raw:: html
@@ -21,7 +23,7 @@ Team report 3
 
 Role
 ----
-In the following questions, briefly describe the role each team member has played in all aspects of Senior Design I (ECE 4512/4532) and in preparing content for the evaluation and executive summary documents (GE 3513). A failure to provide details about team and content preparation roles will not earn full credit for this assignment.
+|role 3|
 
 .. raw:: html
 
@@ -30,7 +32,7 @@ In the following questions, briefly describe the role each team member has playe
 
 Group dynamics
 --------------
-Throughout the semester, have communication, workload, and participation seemed equal and fair? Detail any issues.
+|fair|
 
 .. raw:: html
 
@@ -39,21 +41,21 @@ Throughout the semester, have communication, workload, and participation seemed 
 
 Contributions
 -------------
-Evaluate each team member’s contribution to the **final design review (GE 3513)**.
+|TW contributions 3|
 
 .. raw:: html
 
     {{ =team_data.grid('ge_contributions', *str_array('OktFz93Cas_', 5), average=True) }}
 
 
-Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532)**.
+|SDI contributions|
 
 .. raw:: html
 
     {{ =team_data.grid('sd_contributions', *str_array('huLTZsAsRz_', 5), average=True) }}
 
 
-REQUIRED: If the allocated points above are not equally distributed, you must provide an explanation for your ratings.
+|unequal distribution|
 
 .. raw:: html
 
@@ -62,7 +64,7 @@ REQUIRED: If the allocated points above are not equally distributed, you must pr
 
 Additional information
 ----------------------
-Please offer any additional information you’d like me to know about your group’s interaction and performance throughout the semester.
+|interaction and performance|
 
 .. raw:: html
 

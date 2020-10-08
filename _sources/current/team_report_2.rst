@@ -2,6 +2,8 @@
 Team report 2
 *************
 
+.. include:: questions.inc
+
 **Contents**
 
 .. raw:: html
@@ -21,7 +23,7 @@ Team report 2
 
 Role
 ----
-In the following questions, briefly describe the role each team member has played in all aspects of Senior Design I (ECE 4512/4532) and in preparing content for the design constraints and approach documents (GE 3513). A failure to provide details about team and content preparation roles will not earn full credit for this assignment.
+|role 2|
 
 .. raw:: html
 
@@ -30,14 +32,14 @@ In the following questions, briefly describe the role each team member has playe
 
 Group dynamics
 --------------
-Has your group communicated clearly and cooperated successfully? If any group members seem to take charge of all assignments or group members seem uninterested and overly passive in group discussions, detail those issues.
+|communication and cooperation|
 
 .. raw:: html
 
     {{ =team_data.table('communication', 'PBV7R7QNBf') }}
 
 
-Discuss the reliability and participation of your group members. Has anyone missed a meeting, shown up late, left early, or missed any internal deadlines? If so, please be specific.
+|reliability and participation|
 
 .. raw:: html
 
@@ -46,21 +48,21 @@ Discuss the reliability and participation of your group members. Has anyone miss
 
 Contributions
 -------------
-Evaluate each team member’s contribution to the **mid-semester design review (GE 3513)**.
+|TW contributions 2|
 
 .. raw:: html
 
     {{ =team_data.grid('ge_contributions', *str_array('obQ92zXXNt_', 5), average=True) }}
 
 
-Repeat the question above, this time evaluating each team member’s contribution to **all aspects of Senior Design I (ECE 4512/4532)**.
+|SDI contributions|
 
 .. raw:: html
 
     {{ =team_data.grid('sd_contributions', *str_array('jFv3JEHm9g_', 5), average=True) }}
 
 
-REQUIRED: If the allocated points above are not equally distributed, you must provide an explanation for your ratings.
+|unequal distribution|
 
 .. raw:: html
 
@@ -69,7 +71,7 @@ REQUIRED: If the allocated points above are not equally distributed, you must pr
 
 Additional information
 ----------------------
-Based on any of your answers at this point, please let me know how I can best help your group going forward (meeting with your entire group, meeting with just you, monitoring specific group member contributions/team deadlines, applying a different grading scale, no intervention). Please add any other information that I should know.
+|help|
 
 .. raw:: html
 
