@@ -7,6 +7,8 @@
 
 .. |role 1| replace:: |pre role| the project idea selection, project proposal, and mid-project review aspects of Introduction to Design II (ECE 1022). |post role|
 
+.. |role 2| replace:: |pre role| the project prototype development, venture capital presentation, and final-project review aspects of Introduction to Design II (ECE 1022). |post role|
+
 
 .. |communication and cooperation| replace:: Has your group communicated clearly and cooperated successfully? If any group members seem to take charge of all assignments or group members seem uninterested and overly passive in group discussions, detail those concerns.
 
@@ -19,9 +21,13 @@
 
 .. |contributions 1a| replace:: |pre contributions| **idea development and project proposal** |post contributions|
 
+.. |contributions 2a| replace:: |pre contributions| **prototype development and project completion** |post contributions|
+
 .. |pre contributions repeat| replace:: Repeat the question above, this time evaluating each team member’s contribution to the
 
 .. |contributions 1b| replace:: |pre contributions repeat| **Mid-Project Review presentation**.
+
+.. |contributions 2b| replace:: |pre contributions repeat| **Final-Project Review presentation**.
 
 
 .. |correct value| replace:: Please enter a value between 0 and 100 for each team member. The total of all values should sum to 100.
