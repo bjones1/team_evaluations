@@ -1,5 +1,5 @@
 *************
-Team report 2
+Team report 3
 *************
 
 .. include:: questions.inc
@@ -11,7 +11,7 @@ Team report 2
     {{
         from team import team_report, grades_table, str_array, toc_anchor
 
-        eval_data_dict, team_data_dict, grades = team_report('team_evaluation_2', course_name)
+        eval_data_dict, team_data_dict, grades = team_report('team_evaluation_3', course_name)
         for team_name, team_data in team_data_dict.items():
     }}
 
@@ -23,11 +23,11 @@ Team report 2
 
 Role
 ----
-|role 2|
+|role 3|
 
 .. raw:: html
 
-    {{ =team_data.grid('role', *str_array('u7gFTToScb_', 5)) }}
+    {{ =team_data.grid('role', *str_array('G5EvPApPfa_', 5)) }}
 
 
 Group dynamics
@@ -36,30 +36,37 @@ Group dynamics
 
 .. raw:: html
 
-    {{ =team_data.table('communication', 'PBV7R7QNBf') }}
+    {{ =team_data.table('communication', 'Vx0iEzghEv') }}
 
 
 |reliability and participation|
 
 .. raw:: html
 
-    {{ =team_data.table('participation', 'AKnyibzQr9') }}
+    {{ =team_data.table('participation', 'x6pZMlBfeh') }}
 
 
 Contributions
 -------------
-|contributions 2a|
+|contributions 3a|
 
 .. raw:: html
 
-    {{ =team_data.grid('contributions_a', *str_array('obQ92zXXNt_', 5), average=True) }}
+    {{ =team_data.grid('contributions_a', *str_array('Ots5SChiqE_', 5), average=True) }}
+
+
+|contributions 3b|
+
+.. raw:: html
+
+    {{ =team_data.grid('contributions_b', *str_array('0ijPGWRuEF_', 5), average=True) }}
 
 
 |unequal distribution|
 
 .. raw:: html
 
-    {{ =team_data.table('grades_explanation', '8oyhgXg7Nm') }}
+    {{ =team_data.table('grades_explanation', 'kkxIpsmqNA') }}
 
 
 Additional information
@@ -68,7 +75,7 @@ Additional information
 
 .. raw:: html
 
-    {{ =team_data.table('help_', 'Ha9jyYXVkx') }}
+    {{ =team_data.table('help_', '5MAJ7BDiEt') }}
 
 
 .. raw:: html

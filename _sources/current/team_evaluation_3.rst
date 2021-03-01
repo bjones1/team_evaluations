@@ -1,5 +1,5 @@
 *****************
-Team evaluation 2
+Team evaluation 3
 *****************
 
 .. include:: questions.inc
@@ -16,7 +16,7 @@ Team: **{{ =team_name }}**
 
 Role
 ====
-|role 2|
+|role 3|
 
 .. for-loop:: 5
 
@@ -24,7 +24,7 @@ Role
 
         {{{{ if len(teammate_member_list) > {0}: }}}}
 
-    .. shortanswer:: u7gFTToScb_{0}
+    .. shortanswer:: G5EvPApPfa_{0}
 
         Role - {{{{ =teammate_member_list[{0}] }}}}
 
@@ -35,19 +35,19 @@ Role
 
 Group dynamics
 ==============
-.. shortanswer:: PBV7R7QNBf
+.. shortanswer:: Vx0iEzghEv
 
     |communication and cooperation|
 
 
-.. shortanswer:: AKnyibzQr9
+.. shortanswer:: x6pZMlBfeh
 
     |reliability and participation|
 
 
 Contributions
 =============
-|contributions 2a|
+|contributions 3a|
 
 .. for-loop:: 5
 
@@ -55,7 +55,7 @@ Contributions
 
         {{{{ if len(teammate_member_list) > {0}: }}}}
 
-    .. fillintheblank:: obQ92zXXNt_{0}
+    .. fillintheblank:: Ots5SChiqE_{0}
 
         {{{{ =teammate_member_list[{0}] }}}}: |blank|
 
@@ -67,13 +67,33 @@ Contributions
         {{{{ pass }}}}
 
 
-.. shortanswer:: 8oyhgXg7Nm
+|contributions 3b|
+
+.. for-loop:: 5
+
+    .. raw:: html
+
+        {{{{ if len(teammate_member_list) > {0}: }}}}
+
+    .. fillintheblank:: 0ijPGWRuEF_{0}
+
+        {{{{ =teammate_member_list[{0}] }}}}: |blank|
+
+        -   :50 50: Response recorded.
+            :x: |correct value|
+
+    .. raw:: html
+
+        {{{{ pass }}}}
+
+
+.. shortanswer:: kkxIpsmqNA
 
     |unequal distribution|
 
 
 Additional information
 ======================
-.. shortanswer:: Ha9jyYXVkx
+.. shortanswer:: 5MAJ7BDiEt
 
     |help|
